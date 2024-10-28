@@ -16,12 +16,12 @@ const LineChart = () => {
 
     return (
         <div>
-            <Lchart width={800} height={400} data={studentsMarksData}>
+            <Lchart width={600} height={400} data={studentsMarksData}>
                 <XAxis dataKey="student"></XAxis>
                 <YAxis></YAxis>
                 <Line dataKey="math" stroke='red'></Line>
                 <Line dataKey="physics" stroke='yellow'></Line>
-                <Line dataKey="physics" stroke='white'></Line>
+                <Line dataKey="chemistry" stroke='white'></Line>
             </Lchart>
         </div>
     );
